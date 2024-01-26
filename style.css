@@ -1,0 +1,36 @@
+#parag {
+    color: gray;
+}
+
+main>h2 {
+    color: green;
+}
+
+.exemplo1:hover {
+    background-color: yellow;
+}
+
+.exemplo1:focus {
+    background-color: green;
+}
+
+/*quando clica no botao*/
+.exemplo:active {
+    background-color: blue;
+}
+
+/*Seleciona primeiro elemento filho de li*/
+li:first-child {
+    color: red;
+}
+
+/*seleciona o ultimo filho*/
+
+li:last-child {
+    color: purple;
+}
+
+/*seleciona o elemento na posição indicada*/
+li:nth-child(2){
+    color: orange;
+}

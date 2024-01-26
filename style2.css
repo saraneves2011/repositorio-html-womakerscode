@@ -1,0 +1,8 @@
+div::after{
+    content: "Depois";
+}
+
+div::before{
+    content: "Antes";
+}
+
